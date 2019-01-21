@@ -1,12 +1,12 @@
-A
-B
-C
-A
-B
-C
-A
-B
-C
-B
-C
-C
+Program started at 01/19/2019 18:28:01 PST\n
+Program started at 01/19/2019 18:28:40 PST\nProgram started at 01/19/2019 18:29:15 PST\nTraceback (most recent call last):
+  File "C:\Users\marki\OneDrive\Documents\GitHub\Library-Notifications-2\loginTest.py", line 191, in <module>
+    wb = openpyxl.load_workbook('data.xlsx')
+  File "C:\Users\marki\AppData\Local\Programs\Python\Python36\lib\site-packages\openpyxl\reader\excel.py", line 174, in load_workbook
+    archive = _validate_archive(filename)
+  File "C:\Users\marki\AppData\Local\Programs\Python\Python36\lib\site-packages\openpyxl\reader\excel.py", line 121, in _validate_archive
+    archive = ZipFile(filename, 'r', ZIP_DEFLATED)
+  File "C:\Users\marki\AppData\Local\Programs\Python\Python36\lib\zipfile.py", line 1113, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'data.xlsx'
+\n---------------\n

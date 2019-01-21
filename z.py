@@ -1,10 +1,14 @@
-import os
-from inspect import getsourcefile
-from os.path import abspath
+import time
+import datetime
 
-directory = abspath(getsourcefile(lambda:0))
-newDirectory = directory[:(directory.rfind("\\")+1)]
-os.chdir(newDirectory)
+from datetime import datetime
+from pytz import timezone
+import pytz
 
-file = open('logs.txt', 'r')
-print(file.read())
+
+date_format='%m/%d/%Y %H:%M:%S %Z'
+date = datetime.now(tz=pytz.utc)
+date = date.astimezone(timezone('US/Pacific'))
+date  = (date.strftime(date_format))
+
+print(date)

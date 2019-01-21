@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+chromedriver.exe
+client_secret.json
+storage.json
