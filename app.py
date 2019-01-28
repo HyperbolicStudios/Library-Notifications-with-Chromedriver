@@ -39,8 +39,8 @@ date  = (date.strftime(date_format))
 
 error_message = "Program started at " + date
 #Your username and password
-username = "369135m"
-password = "MashedPotatoes"
+username = "user"
+password = "password"
 
 
 #Log in to google API
